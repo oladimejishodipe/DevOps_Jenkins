@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "CustomConnector": {
+      "connectionInfo": "Custom Connector: OpenAIApp_Connector_v1 (Environment: TY Consulting (default))",
+      "connectorName": "OpenAIApp_Connector_v1",
+      "environmentUrl": "https://org24bdf22e.crm.dynamics.com/",
+      "environmentId": "d952791a-4941-4055-bb1c-d9e5f67e55aa",
+      "type": "powerplatform.local"
+    }
+  }
+}

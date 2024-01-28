@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeMawKNowsBestCrime", "MeMawKNowsBestCrime\MeMawKNowsBestCrime.csproj", "{76AF881E-5DE8-4E7A-B420-A18C496DEE22}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeMawKnowsBestCrimeAPI", "MeMawKnowsBestCrimeAPI\MeMawKnowsBestCrimeAPI.csproj", "{A752873D-C3CA-40A5-A038-1A1E7D2B0676}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsumeSpotifyAPI", "ConsumeSpotifyAPI\ConsumeSpotifyAPI.csproj", "{E0A63DE7-9F7C-4D6E-8D1C-F4BA46ED7FC1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeMawKnowsBestConsoleApp", "..\..\..\..\source\repos\MeMawKnowsBestConsoleApp\MeMawKnowsBestConsoleApp\MeMawKnowsBestConsoleApp.csproj", "{84C5A6FB-AFDF-4819-B883-4116B668118D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MeMawExampleOpenAPI", "MeMawExampleOpenAPI\MeMawExampleOpenAPI.csproj", "{5A510483-54C8-4113-AFF4-CCBF3F9F484F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenAIApp", "OpenAIApp\OpenAIApp.csproj", "{3B777F7D-E51C-4D0B-828E-84A97D83FB13}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{B8C5CC67-BF58-47FB-A4A1-581BB7349B45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76AF881E-5DE8-4E7A-B420-A18C496DEE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76AF881E-5DE8-4E7A-B420-A18C496DEE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76AF881E-5DE8-4E7A-B420-A18C496DEE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76AF881E-5DE8-4E7A-B420-A18C496DEE22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A752873D-C3CA-40A5-A038-1A1E7D2B0676}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A752873D-C3CA-40A5-A038-1A1E7D2B0676}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A752873D-C3CA-40A5-A038-1A1E7D2B0676}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A752873D-C3CA-40A5-A038-1A1E7D2B0676}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0A63DE7-9F7C-4D6E-8D1C-F4BA46ED7FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0A63DE7-9F7C-4D6E-8D1C-F4BA46ED7FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0A63DE7-9F7C-4D6E-8D1C-F4BA46ED7FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0A63DE7-9F7C-4D6E-8D1C-F4BA46ED7FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84C5A6FB-AFDF-4819-B883-4116B668118D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84C5A6FB-AFDF-4819-B883-4116B668118D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84C5A6FB-AFDF-4819-B883-4116B668118D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84C5A6FB-AFDF-4819-B883-4116B668118D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A510483-54C8-4113-AFF4-CCBF3F9F484F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A510483-54C8-4113-AFF4-CCBF3F9F484F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A510483-54C8-4113-AFF4-CCBF3F9F484F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A510483-54C8-4113-AFF4-CCBF3F9F484F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B777F7D-E51C-4D0B-828E-84A97D83FB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B777F7D-E51C-4D0B-828E-84A97D83FB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B777F7D-E51C-4D0B-828E-84A97D83FB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B777F7D-E51C-4D0B-828E-84A97D83FB13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8C5CC67-BF58-47FB-A4A1-581BB7349B45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C5CC67-BF58-47FB-A4A1-581BB7349B45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C5CC67-BF58-47FB-A4A1-581BB7349B45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C5CC67-BF58-47FB-A4A1-581BB7349B45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B36E5B3-E0F9-42EB-97AD-4B2069F06170}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,113 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "OpenAIApp_Connector_v1",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/OpenAi/RankCityBaseOffCrimeBusiness": {
+      "post": {
+        "tags": [
+          "OpenAi"
+        ],
+        "parameters": [
+          {
+            "in": "query",
+            "name": "stateNames",
+            "type": "string",
+            "collectionFormat": "multi"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/StateName/GetStateName": {
+      "get": {
+        "tags": [
+          "StateName"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/MeMawKnowBest_StateName"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/WeatherForecast"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "MeMawKnowBest_StateName": {
+      "type": "object",
+      "properties": {
+        "states": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "WeatherForecast": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "format": "date",
+          "type": "string"
+        },
+        "temperatureC": {
+          "format": "int32",
+          "type": "integer"
+        },
+        "temperatureF": {
+          "format": "int32",
+          "type": "integer",
+          "readOnly": true
+        },
+        "summary": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "host": "b28wvmkr-7148.use2.devtunnels.ms",
+  "schemes": [
+    "https"
+  ]
+}

@@ -1,0 +1,15 @@
+version: '3.4'
+
+services:
+  memawknowsbestcrimeapi:
+    image: ${DOCKER_REGISTRY-}memawknowsbestcrimeapi
+    build:
+      context: .
+      dockerfile: MeMawKnowsBestCrimeAPI\Dockerfile
+
+  openaiapp:
+    image: ${DOCKER_REGISTRY-}openaiapp
+    build:
+      context: .
+      dockerfile: OpenAIApp\Dockerfile
+

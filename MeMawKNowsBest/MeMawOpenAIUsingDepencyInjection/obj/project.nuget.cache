@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "KDS+osD//suHHl9Mb3WsZhRlKibaCo9RA3LjX5gZ+iQnhw/NdYpg3WjP4iKOOgr+TJw8oXcNVXc515f1ui+TEg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\oladi\\Documents\\MeMawKNowBest\\MeMawKnows\\MeMawKNowsBest\\MeMawOpenAIUsingDepencyInjection\\MeMawOpenAIUsingDepencyInjection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oladi\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.14\\microsoft.aspnetcore.openapi.7.0.14.nupkg.sha512",
+    "C:\\Users\\oladi\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\oladi\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\oladi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\oladi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "C:\\Users\\oladi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "C:\\Users\\oladi\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}
